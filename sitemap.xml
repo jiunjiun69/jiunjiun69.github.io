@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://example.org/</loc>
   </url><url>
+    <loc>http://example.org/series/</loc>
+  </url><url>
     <loc>http://example.org/tags/</loc>
   </url>
 </urlset>

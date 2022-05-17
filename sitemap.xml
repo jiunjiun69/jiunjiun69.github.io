@@ -2,12 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jiunjiun69.github.io/posts/my-first-post/</loc>
+    <lastmod>2022-05-17T21:45:48+08:00</lastmod>
+  </url><url>
+    <loc>https://jiunjiun69.github.io/posts/</loc>
+    <lastmod>2022-05-17T21:45:48+08:00</lastmod>
+  </url><url>
+    <loc>https://jiunjiun69.github.io/</loc>
+    <lastmod>2022-05-17T21:45:48+08:00</lastmod>
+  </url><url>
+    <loc>https://jiunjiun69.github.io/about/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://jiunjiun69.github.io/categories/</loc>
   </url><url>
     <loc>https://jiunjiun69.github.io/series/</loc>
   </url><url>
     <loc>https://jiunjiun69.github.io/tags/</loc>
-  </url><url>
-    <loc>https://jiunjiun69.github.io/</loc>
   </url>
 </urlset>

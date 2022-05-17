@@ -13,15 +13,15 @@
       <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
       
       <guid>https://jiunjiun69.github.io/posts/hugo-chart/</guid>
-      <description>var ctx = document.getElementById(&#39;23&#39;).getContext(&#39;2d&#39;);var options = {type: &#39;line&#39;,data: {labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],datasets: [{label: &#39;line Chart&#39;,data: [12, 19, 18, 16, 13, 14],backgroundColor: [&#39;rgba(255, 99, 132, 0.</description>
+      <description>var ctx = document.getElementById(&#39;739&#39;).getContext(&#39;2d&#39;);var options = {type: &#39;line&#39;,data: {labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],datasets: [{label: &#39;line Chart&#39;,data: [12, 19, 18, 16, 13, 14],backgroundColor: [&#39;rgba(255, 99, 132, 0.</description>
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>https://jiunjiun69.github.io/posts/my-first-post/</link>
+      <title>Mermaid</title>
+      <link>https://jiunjiun69.github.io/posts/mermaid/</link>
       <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
       
-      <guid>https://jiunjiun69.github.io/posts/my-first-post/</guid>
+      <guid>https://jiunjiun69.github.io/posts/mermaid/</guid>
       <description>var config = {startOnLoad:true,theme:&#39;neutral&#39;,align:&#39;left&#39;};mermaid.initialize(config);graph TD A[JN在睡覺] --|鬧鐘響了| B(JN準備起床) B -- C{JN是否起床?</description>
     </item>
     

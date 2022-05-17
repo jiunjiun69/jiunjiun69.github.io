@@ -13,7 +13,7 @@
       <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
       
       <guid>https://jiunjiun69.github.io/posts/my-first-post/</guid>
-      <description>graph TD A[JN在睡覺] --&amp;gt;|鬧鐘響了| B(JN準備起床) B --&amp;gt; C{JN是否起床?} C --&amp;gt;|是| D[JN繼續賴床] C --&amp;gt;|否| E[JN睡死] D --&amp;gt; E[JN睡死] </description>
+      <description>graph TD A[JN在睡覺] --|鬧鐘響了| B(JN準備起床) B -- C{JN是否起床?} C --|是| D[JN繼續賴床] C --|否| E[JN睡死] D -- E[JN睡死]</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jiunjiun69.github.io/about/</guid>
-      <description>graph TDA[JN在睡覺] --&amp;gt;|鬧鐘響了| B(JN準備起床)B --&amp;gt; C{JN是否起床?}C --&amp;gt;|是| D[JN繼續賴床]C --&amp;gt;|否| E[JN睡死]D --&amp;gt; E[JN睡死] </description>
+      <description>graph TDA[JN在睡覺] --|鬧鐘響了| B(JN準備起床)B -- C{JN是否起床?}C --|是| D[JN繼續賴床]C --|否| E[JN睡死]D -- E[JN睡死]{{ if .</description>
     </item>
     
   </channel>

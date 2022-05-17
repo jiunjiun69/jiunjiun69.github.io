@@ -12,18 +12,18 @@
   
 
 <meta itemprop="name" content="">
-<meta itemprop="description" content="graph TDA[JN在睡覺] --&gt;|鬧鐘響了| B(JN準備起床)B --&gt; C{JN是否起床?}C --&gt;|是| D[JN繼續賴床]C --&gt;|否| E[JN睡死]D --&gt; E[JN睡死] ">
+<meta itemprop="description" content="graph TDA[JN在睡覺] --|鬧鐘響了| B(JN準備起床)B -- C{JN是否起床?}C --|是| D[JN繼續賴床]C --|否| E[JN睡死]D -- E[JN睡死]{{ if .">
 
-<meta itemprop="wordCount" content="17">
+<meta itemprop="wordCount" content="25">
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="graph TDA[JN在睡覺] --&gt;|鬧鐘響了| B(JN準備起床)B --&gt; C{JN是否起床?}C --&gt;|是| D[JN繼續賴床]C --&gt;|否| E[JN睡死]D --&gt; E[JN睡死] "/>
+<meta name="twitter:description" content="graph TDA[JN在睡覺] --|鬧鐘響了| B(JN準備起床)B -- C{JN是否起床?}C --|是| D[JN繼續賴床]C --|否| E[JN睡死]D -- E[JN睡死]{{ if ."/>
 
 
 <meta property="og:title" content="" />
-<meta property="og:description" content="graph TDA[JN在睡覺] --&gt;|鬧鐘響了| B(JN準備起床)B --&gt; C{JN是否起床?}C --&gt;|是| D[JN繼續賴床]C --&gt;|否| E[JN睡死]D --&gt; E[JN睡死] " />
+<meta property="og:description" content="graph TDA[JN在睡覺] --|鬧鐘響了| B(JN準備起床)B -- C{JN是否起床?}C --|是| D[JN繼續賴床]C --|否| E[JN睡死]D -- E[JN睡死]{{ if ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jiunjiun69.github.io/about/" /><meta property="article:section" content="" />
 
@@ -70,7 +70,7 @@
       "about": {
          "@id": "https://jiunjiun69.github.io/#author"
       },
-      "description": "graph TD\rA[JN在睡覺] --\u0026gt;|鬧鐘響了| B(JN準備起床)\rB --\u0026gt; C{JN是否起床?}\rC --\u0026gt;|是| D[JN繼續賴床]\rC --\u0026gt;|否| E[JN睡死]\rD --\u0026gt; E[JN睡死] ",
+      "description": "graph TD\rA[JN在睡覺] --|鬧鐘響了| B(JN準備起床)\rB -- C{JN是否起床?}\rC --|是| D[JN繼續賴床]\rC --|否| E[JN睡死]\rD -- E[JN睡死]\r\r{{ if .",
       "inLanguage": "en",
       "potentialAction": [
         {
@@ -213,13 +213,19 @@
   
 
   <div>
-  <pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph TD
-    A[JN在睡覺] --&gt;|鬧鐘響了| B(JN準備起床)
-    B --&gt; C{JN是否起床?}
-    C --&gt;|是| D[JN繼續賴床]
-    C --&gt;|否| E[JN睡死]
-    D --&gt; E[JN睡死]
-</code></pre>
+  <div class="mermaid">graph TD
+    A[JN在睡覺] -->|鬧鐘響了| B(JN準備起床)
+    B --> C{JN是否起床?}
+    C -->|是| D[JN繼續賴床]
+    C -->|否| E[JN睡死]
+    D --> E[JN睡死]
+</div>
+<p>{{ if .Page.Store.Get &ldquo;hasMermaid&rdquo; }}</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>{{ end }}</p>
+
   </div>
 
   

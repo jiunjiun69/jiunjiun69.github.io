@@ -13,7 +13,7 @@
       <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
       
       <guid>https://jiunjiun69.github.io/posts/hugo-chart/</guid>
-      <description>var ctx = document.getElementById(&#39;503&#39;).getContext(&#39;2d&#39;);var options = {type: &#39;line&#39;,data: {labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],datasets: [{label: &#39;瘋狂抖動line&#39;,data: [12, 19, 18, 16, 13, 14],backgroundColor: [&#39;rgba(255, 99, 132, 0.</description>
+      <description>var ctx = document.getElementById(&#39;738&#39;).getContext(&#39;2d&#39;);var options = {type: &#39;line&#39;,data: {labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],datasets: [{label: &#39;瘋狂抖動line&#39;,data: [12, 19, 18, 16, 13, 14],backgroundColor: [&#39;rgba(255, 99, 132, 0.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
       
       <guid>https://jiunjiun69.github.io/about/</guid>
-      <description>Lorem IpsumLorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>@import url(&#34;https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&amp;display=swap&#34;);* {margin: 0px;padding: 0;}body {font-family: &#34;</description>
     </item>
     
   </channel>

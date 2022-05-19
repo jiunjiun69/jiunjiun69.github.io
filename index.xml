@@ -8,21 +8,12 @@
     <language>en</language>
     <lastBuildDate>Tue, 17 May 2022 21:45:48 +0800</lastBuildDate><atom:link href="https://jiunjiun69.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://jiunjiun69.github.io/about/</link>
-      <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
-      
-      <guid>https://jiunjiun69.github.io/about/</guid>
-      <description>var config = {startOnLoad:true,theme:&#39;neutral&#39;,align:&#39;left&#39;};mermaid.initialize(config);pietitle 今晚吃什麼&#34;</description>
-    </item>
-    
-    <item>
       <title>Hugo Chart</title>
       <link>https://jiunjiun69.github.io/posts/hugo-chart/</link>
       <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
       
       <guid>https://jiunjiun69.github.io/posts/hugo-chart/</guid>
-      <description>var ctx = document.getElementById(&#39;378&#39;).getContext(&#39;2d&#39;);var options = {type: &#39;line&#39;,data: {labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],datasets: [{label: &#39;瘋狂抖動line&#39;,data: [12, 19, 18, 16, 13, 14],backgroundColor: [&#39;rgba(255, 99, 132, 0.</description>
+      <description>var ctx = document.getElementById(&#39;503&#39;).getContext(&#39;2d&#39;);var options = {type: &#39;line&#39;,data: {labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],datasets: [{label: &#39;瘋狂抖動line&#39;,data: [12, 19, 18, 16, 13, 14],backgroundColor: [&#39;rgba(255, 99, 132, 0.</description>
     </item>
     
     <item>
@@ -41,6 +32,15 @@
       
       <guid>https://jiunjiun69.github.io/posts/soundcloud/</guid>
       <description> </description>
+    </item>
+    
+    <item>
+      <title>關於我</title>
+      <link>https://jiunjiun69.github.io/about/</link>
+      <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
+      
+      <guid>https://jiunjiun69.github.io/about/</guid>
+      <description>Lorem IpsumLorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
   </channel>

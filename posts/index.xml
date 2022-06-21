@@ -1,47 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on 泓均&#39;s Hugo Site</title>
-    <link>https://jiunjiun69.github.io/posts/</link>
-    <description>Recent content in Posts on 泓均&#39;s Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 17 May 2022 21:45:48 +0800</lastBuildDate><atom:link href="https://jiunjiun69.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo Chart</title>
-      <link>https://jiunjiun69.github.io/posts/hugo-chart/</link>
-      <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
-      
-      <guid>https://jiunjiun69.github.io/posts/hugo-chart/</guid>
-      <description>var ctx = document.getElementById(&#39;780&#39;).getContext(&#39;2d&#39;);var options = {type: &#39;line&#39;,data: {labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],datasets: [{label: &#39;瘋狂抖動line&#39;,data: [12, 19, 18, 16, 13, 14],backgroundColor: [&#39;rgba(255, 99, 132, 0.</description>
-    </item>
-    
-    <item>
-      <title>LaTeX</title>
-      <link>https://jiunjiun69.github.io/posts/latex/</link>
-      <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
-      
-      <guid>https://jiunjiun69.github.io/posts/latex/</guid>
-      <description>How to Add LaTeX Support in Hugo https://dzhg.dev/posts/2020/08/how-to-add-latex-support-in-hugo/</description>
-    </item>
-    
-    <item>
-      <title>Mermaid</title>
-      <link>https://jiunjiun69.github.io/posts/mermaid/</link>
-      <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
-      
-      <guid>https://jiunjiun69.github.io/posts/mermaid/</guid>
-      <description>var config = {startOnLoad:true,theme:&#39;neutral&#39;,align:&#39;left&#39;};mermaid.initialize(config);graph TD A[JN在睡覺] --|鬧鐘響了| B(JN準備起床) B -- C{JN是否起床?</description>
-    </item>
-    
-    <item>
-      <title>Sound Cloud</title>
-      <link>https://jiunjiun69.github.io/posts/soundcloud/</link>
-      <pubDate>Tue, 17 May 2022 21:45:48 +0800</pubDate>
-      
-      <guid>https://jiunjiun69.github.io/posts/soundcloud/</guid>
-      <description> </description>
-    </item>
-    
-  </channel>
-</rss>

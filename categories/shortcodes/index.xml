@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Shortcodes on 泓均&#39;s 筆記 Site</title>
+        <link>https://jiunjiun69.github.io/categories/shortcodes/</link>
+        <description>Recent content in Shortcodes on 泓均&#39;s 筆記 Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jiunjiun69.github.io/categories/shortcodes/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>自訂義 Shortcode</title>
+        <link>https://jiunjiun69.github.io/p/%E8%87%AA%E8%A8%82%E7%BE%A9-shortcode/</link>
+        <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://jiunjiun69.github.io/p/%E8%87%AA%E8%A8%82%E7%BE%A9-shortcode/</guid>
+        <description>&lt;p&gt;Hugo 可以自訂義 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Shortcodes&lt;/a&gt; ，以下是我亂玩的幾個Shortcodes&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hugo-chart-shortcode&#34;&gt;Hugo Chart Shortcode&lt;/h2&gt;
+&lt;h3 id=&#34;line-chart&#34;&gt;Line Chart&lt;/h3&gt;
+
+
+
+
+
+&lt;div style=&#34;width: 100%;height: 300px;margin: 0 auto&#34;&gt;
+    &lt;canvas id=&#34;939&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+    var ctx = document.getElementById(&#39;939&#39;).getContext(&#39;2d&#39;);
+    var options = 
+{
+    type: &#39;line&#39;,
+    data: {
+        labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],
+        datasets: [{
+            label: &#39;瘋狂抖動line&#39;,
+            data: [12, 19, 18, 16, 13, 14],
+            backgroundColor: [
+                &#39;rgba(255, 99, 132, 0.2)&#39;,
+                &#39;rgba(54, 162, 235, 0.2)&#39;,
+                &#39;rgba(255, 206, 86, 0.2)&#39;,
+                &#39;rgba(75, 192, 192, 0.2)&#39;,
+                &#39;rgba(153, 102, 255, 0.2)&#39;,
+                &#39;rgba(255, 159, 64, 0.2)&#39;
+            ],
+            borderColor: [
+                &#39;rgba(255, 99, 132, 1)&#39;,
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                max: 100,
+                min: 0,
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        animations: {
+            tension: {
+                duration: 300,
+                easing: &#39;easeInOutSine&#39;,
+                from: 3,
+                to: 0,
+                loop: true
+            }
+        },
+    }
+};
+    const hugoChart = new Chart(ctx, options);
+&lt;/script&gt;
+&lt;h3 id=&#34;bar-chart&#34;&gt;Bar Chart&lt;/h3&gt;
+
+
+
+
+
+&lt;div style=&#34;width: 90%;height: 200px;margin: 0 auto&#34;&gt;
+    &lt;canvas id=&#34;404&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+    var ctx = document.getElementById(&#39;404&#39;).getContext(&#39;2d&#39;);
+    var options = 
+{
+    type: &#39;bar&#39;,
+    data: {
+        labels: [&#39;Red&#39;, &#39;Blue&#39;, &#39;Yellow&#39;, &#39;Green&#39;, &#39;Purple&#39;, &#39;Orange&#39;],
+        datasets: [{
+            label: &#39;抖動Bar&#39;,
+            data: [12, 19, 18, 16, 13, 14],
+            backgroundColor: [
+                &#39;rgba(255, 99, 132, 0.2)&#39;,
+                &#39;rgba(54, 162, 235, 0.2)&#39;,
+                &#39;rgba(255, 206, 86, 0.2)&#39;,
+                &#39;rgba(75, 192, 192, 0.2)&#39;,
+                &#39;rgba(153, 102, 255, 0.2)&#39;,
+                &#39;rgba(255, 159, 64, 0.2)&#39;
+            ],
+            borderColor: [
+                &#39;rgba(255, 99, 132, 1)&#39;,
+                &#39;rgba(54, 162, 235, 1)&#39;,
+                &#39;rgba(255, 206, 86, 1)&#39;,
+                &#39;rgba(75, 192, 192, 1)&#39;,
+                &#39;rgba(153, 102, 255, 1)&#39;,
+                &#39;rgba(255, 159, 64, 1)&#39;
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        scales: {
+             y: {
+                max: 100,
+                min: 0
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+};
+    const hugoChart1 = new Chart(ctx, options);
+&lt;/script&gt;
+&lt;h3 id=&#34;bubble-chart&#34;&gt;Bubble Chart&lt;/h3&gt;
+
+
+
+
+
+&lt;div style=&#34;width: 80%;height: 300px;margin: 0 auto&#34;&gt;
+    &lt;canvas id=&#34;218&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+    var ctx = document.getElementById(&#39;218&#39;).getContext(&#39;2d&#39;);
+    var options = 
+{
+    type: &#39;bubble&#39;,
+    data: {
+        datasets: [{
+        label: &#39;抖動球&#39;,
+        data: [{
+            x: 20,
+            y: 30,
+            r: 15
+        }, {
+            x: 40,
+            y: 10,
+            r: 10
+        }],
+        backgroundColor: &#39;rgb(255, 99, 132)&#39;
+    }]
+    },
+    options: {
+        y: {
+                max: 100,
+                min: 0,
+                ticks: {
+                    stepSize: 20
+                }
+            },
+        x: {
+                max: 100,
+                min: 0,
+            },
+    }
+};
+    const hugoChart2 = new Chart(ctx, options);
+&lt;/script&gt;
+&lt;div id=&#34;s_r_de_hugoChart&#34;&gt;        
+    &lt;script type=&#34;text/javascript&#34;&gt;
+        
+        
+        
+        
+        
+        
+        
+        
+
+        var i = 0;
+        setInterval(function(){
+            
+            var max = 100;
+            var randomArray = [Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max)];
+            
+            
+
+            if(i==0)hugoChart.data.datasets[0].borderColor = [&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;];
+            if(i==1)hugoChart.data.datasets[0].borderColor = [&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;];
+            if(i==2)hugoChart.data.datasets[0].borderColor = [&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;];
+            if(i==3)hugoChart.data.datasets[0].borderColor = [&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;];
+            if(i==4)hugoChart.data.datasets[0].borderColor = [&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;];
+            if(i==5)hugoChart.data.datasets[0].borderColor = [&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;];
+
+            if(i==0)hugoChart.data.datasets[0].backgroundColor = [&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;];
+            if(i==1)hugoChart.data.datasets[0].backgroundColor = [&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;];
+            if(i==2)hugoChart.data.datasets[0].backgroundColor = [&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;];
+            if(i==3)hugoChart.data.datasets[0].backgroundColor = [&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;];
+            if(i==4)hugoChart.data.datasets[0].backgroundColor = [&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;];
+            if(i==5)hugoChart.data.datasets[0].backgroundColor = [&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;];
+            i++;
+            if(i==6)i=0;
+
+            hugoChart.data.datasets[0].data = randomArray;
+
+            hugoChart.update();
+            },500);
+    &lt;/script&gt;
+
+    &lt;script type=&#34;text/javascript&#34;&gt;
+        var n = 0;
+        setInterval(function(){
+            var max = 100;
+            var randomArray = [Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max)];
+            if(n==0)hugoChart1.data.datasets[0].borderColor = [&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;];
+            if(n==1)hugoChart1.data.datasets[0].borderColor = [&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;];
+            if(n==2)hugoChart1.data.datasets[0].borderColor = [&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;];
+            if(n==3)hugoChart1.data.datasets[0].borderColor = [&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;];
+            if(n==4)hugoChart1.data.datasets[0].borderColor = [&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;];
+            if(n==5)hugoChart1.data.datasets[0].borderColor = [&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;];
+
+            if(n==0)hugoChart1.data.datasets[0].backgroundColor = [&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;];
+            if(n==1)hugoChart1.data.datasets[0].backgroundColor = [&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;];
+            if(n==2)hugoChart1.data.datasets[0].backgroundColor = [&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;];
+            if(n==3)hugoChart1.data.datasets[0].backgroundColor = [&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;];
+            if(n==4)hugoChart1.data.datasets[0].backgroundColor = [&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;];
+            if(n==5)hugoChart1.data.datasets[0].backgroundColor = [&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;];
+            n++;
+            if(n==6)n=0;
+
+            hugoChart1.data.datasets[0].data = randomArray;
+
+            randomNum = Math.floor(Math.random() * max)
+            hugoChart1.data.labels.push(randomNum);
+            hugoChart1.data.datasets[0].data.push(randomNum);
+            hugoChart1.update();
+
+            if (hugoChart1.data.labels.length &gt;= 6) {
+                hugoChart1.data.labels.shift();
+                hugoChart1.data.datasets[0].data.shift();
+            }
+
+            hugoChart1.update();
+
+            
+            
+
+            
+        },300);
+    &lt;/script&gt;
+
+    &lt;script type=&#34;text/javascript&#34;&gt;
+        
+        var j = 0;
+        setInterval(function(){
+            
+            
+            
+            
+            
+            
+            
+            
+
+            if(j==0)hugoChart2.data.datasets[0].borderColor = [&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;];
+            if(j==1)hugoChart2.data.datasets[0].borderColor = [&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;];
+            if(j==2)hugoChart2.data.datasets[0].borderColor = [&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;];
+            if(j==3)hugoChart2.data.datasets[0].borderColor = [&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;];
+            if(j==4)hugoChart2.data.datasets[0].borderColor = [&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;];
+            if(j==5)hugoChart2.data.datasets[0].borderColor = [&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;];
+
+            if(j==0)hugoChart2.data.datasets[0].backgroundColor = [&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;];
+            if(j==1)hugoChart2.data.datasets[0].backgroundColor = [&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;];
+            if(j==2)hugoChart2.data.datasets[0].backgroundColor = [&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;];
+            if(j==3)hugoChart2.data.datasets[0].backgroundColor = [&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;];
+            if(j==4)hugoChart2.data.datasets[0].backgroundColor = [&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;,&#39;rgba(54, 162, 235, 1)&#39;];
+            if(j==5)hugoChart2.data.datasets[0].backgroundColor = [&#39;rgba(54, 162, 235, 1)&#39;,&#39;rgba(255, 206, 86, 1&#39;,&#39;rgba(75, 192, 192, 1)&#39;,&#39;rgba(153, 102, 255, 1)&#39;,&#39;rgba(255, 159, 64, 1)&#39;,&#39;rgba(255, 99, 132, 1)&#39;];
+            j++;
+            if(j==6)j=0;
+
+            var bubble_max = 100;
+            var bubbleArray = [{
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }]
+            hugoChart2.data.datasets[0].data = bubbleArray;
+
+            hugoChart2.update();
+            },100);
+    &lt;/script&gt;
+
+&lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;mermaid-shortcode&#34;&gt;Mermaid Shortcode&lt;/h2&gt;
+&lt;h3 id=&#34;graph&#34;&gt;graph&lt;/h3&gt;
+&lt;img align=&#34;left&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/zpxVqxS.gif&#34; alt=&#34;&#34; /&gt;
+
+&lt;img align=&#34;right&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/O3neWIB.gif&#34; alt=&#34;&#34; /&gt;
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    
+&lt;script async type=&#34;application/javascript&#34; src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;
+    var config = {
+      startOnLoad:true,
+      theme:&#39;neutral&#39;,
+      align:&#39;left&#39;
+    };
+    mermaid.initialize(config);
+&lt;/script&gt;
+  
+&lt;div class=&#34;mermaid&#34;&gt;
+    
+graph TD
+    A[JN在睡覺] --&gt;|鬧鐘響了| B(JN準備起床)
+    B --&gt; C{JN是否起床?}
+    C --&gt;|是| D[JN繼續賴床]
+    C --&gt;|否| E[JN睡死]
+    D --&gt; E[JN睡死]
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;img align=&#34;left&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/F5U9y8v.gif&#34; alt=&#34;&#34; /&gt;
+
+&lt;img align=&#34;right&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/ti9lOcK.gif&#34; alt=&#34;&#34; /&gt;
+&lt;h3 id=&#34;pie&#34;&gt;pie&lt;/h3&gt;
+&lt;script async type=&#34;application/javascript&#34; src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;
+    var config = {
+      startOnLoad:true,
+      theme:&#39;neutral&#39;,
+      align:&#39;left&#39;
+    };
+    mermaid.initialize(config);
+&lt;/script&gt;
+  
+&lt;div class=&#34;mermaid&#34;&gt;
+    
+pie
+    title 今晚吃什麼
+    &#34;不知道&#34; : 50
+    &#34;不知道ㄟ&#34; : 35
+    &#34;不知道ㄝ&#34; : 10
+    &#34;還是不知道&#34; : 5
+
+&lt;/div&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;latex-shortcode&#34;&gt;LaTeX Shortcode&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://dzhg.dev/posts/2020/08/how-to-add-latex-support-in-hugo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://dzhg.dev/posts/2020/08/how-to-add-latex-support-in-hugo/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hugo本機不支持LaTex。LaTex對於編寫數學相關內容非常有用且必不可少。&lt;/li&gt;
+&lt;li&gt;KaTex 是LaTex JavaScript 中的渲染器。它有一個擴展來自動呈現所有數學內容。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css&#34; integrity=&#34;sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X&#34; crossorigin=&#34;anonymous&#34;&gt;
+
+
+&lt;script defer src=&#34;https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js&#34; integrity=&#34;sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;script defer src=&#34;https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js&#34; integrity=&#34;sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa&#34; crossorigin=&#34;anonymous&#34;
+    onload=&#34;renderMathInElement(document.body);&#34;&gt;&lt;/script&gt;
+&lt;p&gt;\(e = mc^2\)&lt;/p&gt;
+&lt;p&gt;$$\sum_{x=1}^5 y^z$$&lt;/p&gt;
+&lt;p&gt;\[\int_a^b f(x)\]&lt;/p&gt;
+&lt;p&gt;$$\mathbb{N} = { a \in \mathbb{Z} : a &amp;gt; 0 }$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$$x + y$$&lt;/li&gt;
+&lt;li&gt;$$x - y$$&lt;/li&gt;
+&lt;li&gt;$$x \times y$$&lt;/li&gt;
+&lt;li&gt;$$x \div y$$&lt;/li&gt;
+&lt;li&gt;$$\dfrac{x}{y}$$&lt;/li&gt;
+&lt;li&gt;$$\sqrt{x}$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$\sum_{x=1}^5 y^z$$
+\[\int_a^b f(x)\]&lt;/p&gt;
+&lt;h2 id=&#34;sound-cloud-shortcode&#34;&gt;Sound Cloud Shortcode&lt;/h2&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;300&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/271632492&amp;color=%234969ac&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true&#34;&gt;&lt;/iframe&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;努力不一定會成功，但不努力會很輕鬆&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;Somebody&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

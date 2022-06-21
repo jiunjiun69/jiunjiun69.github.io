@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='亂玩自訂義 Shortcodes'><title>自訂義 Shortcode</title>
+
+<link rel='canonical' href='https://jiunjiun69.github.io/p/%E8%87%AA%E8%A8%82%E7%BE%A9-shortcode/'>
+
+<link rel="stylesheet" href="/scss/style.min.5a8e892f6fa14515e9065eee1f5d2e05302606ec7f11750b2fb95198f9cdcbfd.css"><meta property='og:title' content='自訂義 Shortcode'>
+<meta property='og:description' content='亂玩自訂義 Shortcodes'>
+<meta property='og:url' content='https://jiunjiun69.github.io/p/%E8%87%AA%E8%A8%82%E7%BE%A9-shortcode/'>
+<meta property='og:site_name' content='泓均&#39;s 筆記 Site'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='shortcodes' /><meta property='article:published_time' content='2022-06-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-06-21T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="自訂義 Shortcode">
+<meta name="twitter:description" content="亂玩自訂義 Shortcodes">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu24396b128ae06d657b516bd7a2346d7e_48225_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🌌</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">泓均&#39;s 筆記 Site</a></h1>
+            <h2 class="site-description">程式菜鳥的練習筆記</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/jiunjiun69'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主頁</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E9%97%9C%E6%96%BC/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>關於</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>文章</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜尋</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E9%80%A3%E7%B5%90/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>連結</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://jiunjiun69.github.io/" selected>繁體中文</option>
+                        
+                            <option value="https://jiunjiun69.github.io/en/" >English</option>
+                        
+                            <option value="https://jiunjiun69.github.io/zh-cn/" >簡體中文</option>
+                        
+                            <option value="https://jiunjiun69.github.io/ar/" >عربي</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>夜晚模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/shortcodes/" style="background-color: #2a9d8f; color: #fff;">
+                Shortcodes
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E8%87%AA%E8%A8%82%E7%BE%A9-shortcode/">自訂義 Shortcode</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            亂玩自訂義 Shortcodes
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 21, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    閱讀時間: 1 分鐘
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>Hugo 可以自訂義 <a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes"  target="_blank" rel="noopener"
+    >Shortcodes</a> ，以下是我亂玩的幾個Shortcodes</p>
+<hr>
+<h2 id="hugo-chart-shortcode">Hugo Chart Shortcode</h2>
+<h3 id="line-chart">Line Chart</h3>
+
+
+
+
+
+<div style="width: 100%;height: 300px;margin: 0 auto">
+    <canvas id="939"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+<script type="text/javascript">
+    var ctx = document.getElementById('939').getContext('2d');
+    var options = 
+{
+    type: 'line',
+    data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: '瘋狂抖動line',
+            data: [12, 19, 18, 16, 13, 14],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                max: 100,
+                min: 0,
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        },
+        animations: {
+            tension: {
+                duration: 300,
+                easing: 'easeInOutSine',
+                from: 3,
+                to: 0,
+                loop: true
+            }
+        },
+    }
+};
+    const hugoChart = new Chart(ctx, options);
+</script>
+<h3 id="bar-chart">Bar Chart</h3>
+
+
+
+
+
+<div style="width: 90%;height: 200px;margin: 0 auto">
+    <canvas id="404"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+<script type="text/javascript">
+    var ctx = document.getElementById('404').getContext('2d');
+    var options = 
+{
+    type: 'bar',
+    data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: '抖動Bar',
+            data: [12, 19, 18, 16, 13, 14],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        maintainAspectRatio: false,
+        scales: {
+             y: {
+                max: 100,
+                min: 0
+            },
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+};
+    const hugoChart1 = new Chart(ctx, options);
+</script>
+<h3 id="bubble-chart">Bubble Chart</h3>
+
+
+
+
+
+<div style="width: 80%;height: 300px;margin: 0 auto">
+    <canvas id="218"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+<script type="text/javascript">
+    var ctx = document.getElementById('218').getContext('2d');
+    var options = 
+{
+    type: 'bubble',
+    data: {
+        datasets: [{
+        label: '抖動球',
+        data: [{
+            x: 20,
+            y: 30,
+            r: 15
+        }, {
+            x: 40,
+            y: 10,
+            r: 10
+        }],
+        backgroundColor: 'rgb(255, 99, 132)'
+    }]
+    },
+    options: {
+        y: {
+                max: 100,
+                min: 0,
+                ticks: {
+                    stepSize: 20
+                }
+            },
+        x: {
+                max: 100,
+                min: 0,
+            },
+    }
+};
+    const hugoChart2 = new Chart(ctx, options);
+</script>
+<div id="s_r_de_hugoChart">        
+    <script type="text/javascript">
+        
+        
+        
+        
+        
+        
+        
+        
+
+        var i = 0;
+        setInterval(function(){
+            
+            var max = 100;
+            var randomArray = [Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max)];
+            
+            
+
+            if(i==0)hugoChart.data.datasets[0].borderColor = ['rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)'];
+            if(i==1)hugoChart.data.datasets[0].borderColor = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'];
+            if(i==2)hugoChart.data.datasets[0].borderColor = ['rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)'];
+            if(i==3)hugoChart.data.datasets[0].borderColor = ['rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)'];
+            if(i==4)hugoChart.data.datasets[0].borderColor = ['rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1'];
+            if(i==5)hugoChart.data.datasets[0].borderColor = ['rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)'];
+
+            if(i==0)hugoChart.data.datasets[0].backgroundColor = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'];
+            if(i==1)hugoChart.data.datasets[0].backgroundColor = ['rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)'];
+            if(i==2)hugoChart.data.datasets[0].backgroundColor = ['rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)'];
+            if(i==3)hugoChart.data.datasets[0].backgroundColor = ['rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1'];
+            if(i==4)hugoChart.data.datasets[0].backgroundColor = ['rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)'];
+            if(i==5)hugoChart.data.datasets[0].backgroundColor = ['rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)'];
+            i++;
+            if(i==6)i=0;
+
+            hugoChart.data.datasets[0].data = randomArray;
+
+            hugoChart.update();
+            },500);
+    </script>
+
+    <script type="text/javascript">
+        var n = 0;
+        setInterval(function(){
+            var max = 100;
+            var randomArray = [Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max), Math.floor(Math.random() * max)];
+            if(n==0)hugoChart1.data.datasets[0].borderColor = ['rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)'];
+            if(n==1)hugoChart1.data.datasets[0].borderColor = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'];
+            if(n==2)hugoChart1.data.datasets[0].borderColor = ['rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)'];
+            if(n==3)hugoChart1.data.datasets[0].borderColor = ['rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)'];
+            if(n==4)hugoChart1.data.datasets[0].borderColor = ['rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1'];
+            if(n==5)hugoChart1.data.datasets[0].borderColor = ['rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)'];
+
+            if(n==0)hugoChart1.data.datasets[0].backgroundColor = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'];
+            if(n==1)hugoChart1.data.datasets[0].backgroundColor = ['rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)'];
+            if(n==2)hugoChart1.data.datasets[0].backgroundColor = ['rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)'];
+            if(n==3)hugoChart1.data.datasets[0].backgroundColor = ['rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1'];
+            if(n==4)hugoChart1.data.datasets[0].backgroundColor = ['rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)'];
+            if(n==5)hugoChart1.data.datasets[0].backgroundColor = ['rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)'];
+            n++;
+            if(n==6)n=0;
+
+            hugoChart1.data.datasets[0].data = randomArray;
+
+            randomNum = Math.floor(Math.random() * max)
+            hugoChart1.data.labels.push(randomNum);
+            hugoChart1.data.datasets[0].data.push(randomNum);
+            hugoChart1.update();
+
+            if (hugoChart1.data.labels.length >= 6) {
+                hugoChart1.data.labels.shift();
+                hugoChart1.data.datasets[0].data.shift();
+            }
+
+            hugoChart1.update();
+
+            
+            
+
+            
+        },300);
+    </script>
+
+    <script type="text/javascript">
+        
+        var j = 0;
+        setInterval(function(){
+            
+            
+            
+            
+            
+            
+            
+            
+
+            if(j==0)hugoChart2.data.datasets[0].borderColor = ['rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)'];
+            if(j==1)hugoChart2.data.datasets[0].borderColor = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'];
+            if(j==2)hugoChart2.data.datasets[0].borderColor = ['rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)'];
+            if(j==3)hugoChart2.data.datasets[0].borderColor = ['rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)'];
+            if(j==4)hugoChart2.data.datasets[0].borderColor = ['rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1'];
+            if(j==5)hugoChart2.data.datasets[0].borderColor = ['rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)'];
+
+            if(j==0)hugoChart2.data.datasets[0].backgroundColor = ['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)'];
+            if(j==1)hugoChart2.data.datasets[0].backgroundColor = ['rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)'];
+            if(j==2)hugoChart2.data.datasets[0].backgroundColor = ['rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)'];
+            if(j==3)hugoChart2.data.datasets[0].backgroundColor = ['rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1'];
+            if(j==4)hugoChart2.data.datasets[0].backgroundColor = ['rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)'];
+            if(j==5)hugoChart2.data.datasets[0].backgroundColor = ['rgba(54, 162, 235, 1)','rgba(255, 206, 86, 1','rgba(75, 192, 192, 1)','rgba(153, 102, 255, 1)','rgba(255, 159, 64, 1)','rgba(255, 99, 132, 1)'];
+            j++;
+            if(j==6)j=0;
+
+            var bubble_max = 100;
+            var bubbleArray = [{
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }, {
+                    x: Math.floor(Math.random() * bubble_max),
+                    y: Math.floor(Math.random() * bubble_max),
+                    r: Math.floor(Math.random() * 30)+5
+                }]
+            hugoChart2.data.datasets[0].data = bubbleArray;
+
+            hugoChart2.update();
+            },100);
+    </script>
+
+</div>
+<!-- raw HTML omitted -->
+<hr>
+<h2 id="mermaid-shortcode">Mermaid Shortcode</h2>
+<h3 id="graph">graph</h3>
+<img align="left" width="15%" src="https://i.imgur.com/zpxVqxS.gif" alt="" />
+
+<img align="right" width="15%" src="https://i.imgur.com/O3neWIB.gif" alt="" />
+<div style="text-align: center;">
+    
+<script async type="application/javascript" src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">
+    var config = {
+      startOnLoad:true,
+      theme:'neutral',
+      align:'left'
+    };
+    mermaid.initialize(config);
+</script>
+  
+<div class="mermaid">
+    
+graph TD
+    A[JN在睡覺] -->|鬧鐘響了| B(JN準備起床)
+    B --> C{JN是否起床?}
+    C -->|是| D[JN繼續賴床]
+    C -->|否| E[JN睡死]
+    D --> E[JN睡死]
+
+</div>
+
+</div>
+<img align="left" width="15%" src="https://i.imgur.com/F5U9y8v.gif" alt="" />
+
+<img align="right" width="15%" src="https://i.imgur.com/ti9lOcK.gif" alt="" />
+<h3 id="pie">pie</h3>
+<script async type="application/javascript" src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">
+    var config = {
+      startOnLoad:true,
+      theme:'neutral',
+      align:'left'
+    };
+    mermaid.initialize(config);
+</script>
+  
+<div class="mermaid">
+    
+pie
+    title 今晚吃什麼
+    "不知道" : 50
+    "不知道ㄟ" : 35
+    "不知道ㄝ" : 10
+    "還是不知道" : 5
+
+</div>
+<!-- raw HTML omitted -->
+<hr>
+<h2 id="latex-shortcode">LaTeX Shortcode</h2>
+<p><a class="link" href="https://dzhg.dev/posts/2020/08/how-to-add-latex-support-in-hugo/"  target="_blank" rel="noopener"
+    >https://dzhg.dev/posts/2020/08/how-to-add-latex-support-in-hugo/</a></p>
+<ul>
+<li>hugo本機不支持LaTex。LaTex對於編寫數學相關內容非常有用且必不可少。</li>
+<li>KaTex 是LaTex JavaScript 中的渲染器。它有一個擴展來自動呈現所有數學內容。</li>
+</ul>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<p>\(e = mc^2\)</p>
+<p>$$\sum_{x=1}^5 y^z$$</p>
+<p>\[\int_a^b f(x)\]</p>
+<p>$$\mathbb{N} = { a \in \mathbb{Z} : a &gt; 0 }$$</p>
+<ul>
+<li>$$x + y$$</li>
+<li>$$x - y$$</li>
+<li>$$x \times y$$</li>
+<li>$$x \div y$$</li>
+<li>$$\dfrac{x}{y}$$</li>
+<li>$$\sqrt{x}$$</li>
+</ul>
+<p>$$\sum_{x=1}^5 y^z$$
+\[\int_a^b f(x)\]</p>
+<h2 id="sound-cloud-shortcode">Sound Cloud Shortcode</h2>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/271632492&color=%234969ac&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<!-- raw HTML omitted -->
+<hr>
+<blockquote>
+    <p>努力不一定會成功，但不努力會很輕鬆</p><span class="cite"><span>― </span><span>Somebody</span><cite></cite></span></blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/shortcodes/">shortcodes</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 泓均&#39;s 筆記 Site
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.12.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目錄</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#hugo-chart-shortcode">Hugo Chart Shortcode</a>
+      <ol>
+        <li><a href="#line-chart">Line Chart</a></li>
+        <li><a href="#bar-chart">Bar Chart</a></li>
+        <li><a href="#bubble-chart">Bubble Chart</a></li>
+      </ol>
+    </li>
+    <li><a href="#mermaid-shortcode">Mermaid Shortcode</a>
+      <ol>
+        <li><a href="#graph">graph</a></li>
+        <li><a href="#pie">pie</a></li>
+      </ol>
+    </li>
+    <li><a href="#latex-shortcode">LaTeX Shortcode</a></li>
+    <li><a href="#sound-cloud-shortcode">Sound Cloud Shortcode</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

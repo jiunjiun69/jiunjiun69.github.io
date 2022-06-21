@@ -1,3 +1,3 @@
 # jiunjiun69.github.io
-使用Hugo建立
+Built with Hugo
 https://jiunjiun69.github.io/

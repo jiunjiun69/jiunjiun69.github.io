@@ -646,11 +646,11 @@ add 修改加入書籤&lt;/p&gt;
 
 
 &lt;div style=&#34;width: 100%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;923&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;427&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;923&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;427&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;line&#39;,
@@ -706,11 +706,11 @@ add 修改加入書籤&lt;/p&gt;
 
 
 &lt;div style=&#34;width: 90%;height: 200px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;753&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;211&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;753&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;211&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bar&#39;,
@@ -762,11 +762,11 @@ add 修改加入書籤&lt;/p&gt;
 
 
 &lt;div style=&#34;width: 80%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;644&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;537&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;644&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;537&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bubble&#39;,

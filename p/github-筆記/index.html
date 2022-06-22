@@ -647,6 +647,50 @@
 </div><p><a class="link" href="https://iter01.com/525732.html"  target="_blank" rel="noopener"
     >Git 實用操作：重寫 Commit 歷史</a></p>
 <hr>
+<h2 id="複製code到新分支">複製code到新分支</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1、切換到原分支
+</span></span><span class="line"><span class="cl">git checkout &lt;原分支&gt;
+</span></span><span class="line"><span class="cl">git pull
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">2、將原分支複製到新分支
+</span></span><span class="line"><span class="cl">git checkout -b &lt;新分支&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">3、將新分支的代碼推送到遠端伺服器
+</span></span><span class="line"><span class="cl">git push origin &lt;新分支&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">4、拉取遠端分支的code
+</span></span><span class="line"><span class="cl">git pull
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">5、關聯
+</span></span><span class="line"><span class="cl">git branch --set-upstream-to=origin/&lt;新分支&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">6、再次拉取代碼
+</span></span><span class="line"><span class="cl">git pull
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
 <h1 id="github-fork-跟-branch">GitHub fork 跟 branch</h1>
 <p><a class="link" href="https://git-scm.com/book/zh-tw/v2/GitHub-%E5%8F%83%E8%88%87%E4%B8%80%E5%80%8B%E5%B0%88%E6%A1%88"  target="_blank" rel="noopener"
     >https://git-scm.com/book/zh-tw/v2/GitHub-%E5%8F%83%E8%88%87%E4%B8%80%E5%80%8B%E5%B0%88%E6%A1%88</a></p>
@@ -1021,6 +1065,7 @@ add 修改加入書籤</p>
     <li><a href="#批量刪除子模塊">批量刪除子模塊</a></li>
     <li><a href="#有些檔案不想放在-git-裡面">有些檔案不想放在 Git 裡面</a></li>
     <li><a href="#git-指令回顧">Git 指令回顧</a></li>
+    <li><a href="#複製code到新分支">複製code到新分支</a></li>
   </ol>
 
   <ol>

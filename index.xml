@@ -690,11 +690,11 @@ add 修改加入書籤&lt;/p&gt;
 
 
 &lt;div style=&#34;width: 100%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;162&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;994&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;162&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;994&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;line&#39;,
@@ -750,11 +750,11 @@ add 修改加入書籤&lt;/p&gt;
 
 
 &lt;div style=&#34;width: 90%;height: 200px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;122&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;995&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;122&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;995&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bar&#39;,
@@ -806,11 +806,11 @@ add 修改加入書籤&lt;/p&gt;
 
 
 &lt;div style=&#34;width: 80%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;437&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;192&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;437&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;192&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bubble&#39;,
@@ -1096,27 +1096,74 @@ pie
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
         
         <guid>https://jiunjiun69.github.io/%E9%97%9C%E6%96%BC/</guid>
-        <description>&lt;div align=&#34;center&#34; class=&#34;container&#34;&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col&#34;&gt;
-            &lt;img align=&#34;center&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/zpxVqxS.gif&#34; alt=&#34;&#34; /&gt;
-            &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp
-            &lt;img align=&#34;center&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/O3neWIB.gif&#34; alt=&#34;&#34; /&gt;
-        &lt;/div&gt;
+        <description>&lt;p&gt;&lt;img src=&#34;https://komarev.com/ghpvc/?username=jiunjiun69&amp;amp;style=plastic&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+
+&lt;h1 align=&#34;center&#34;&gt;Hi 👋, I&#39;m jiunjiun69&lt;/h1&gt;
+
+
+
+
+&lt;div align=&#34;center&#34; class=&#34;container&#34;&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col&#34;&gt;
+      &lt;img align=&#34;center&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/zpxVqxS.gif&#34; alt=&#34;&#34; /&gt;
+      &amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp&amp;nbsp
+      &lt;img align=&#34;center&#34; width=&#34;15%&#34; src=&#34;https://i.imgur.com/O3neWIB.gif&#34; alt=&#34;&#34; /&gt;
     &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h1 align=&#34;center&#34;&gt;GitHub Profile Trophy&lt;/h1&gt;
+&lt;h1 align=&#34;center&#34;&gt;🏆 Github Achievements&lt;/h1&gt;
 
-&lt;p align=&#34;center&#34;&gt;
-    &lt;img align=&#34;center&#34; src=&#34;https://github-profile-trophy.vercel.app/?username=jiunjiun69&amp;theme=discord&amp;column=3&amp;margin-w=15&amp;margin-h=15&#34; alt=&#34;&#34; /&gt;
-&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://github-profile-trophy.vercel.app/?username=jiunjiun69&amp;theme=discord&amp;column=3&amp;margin-w=15&amp;margin-h=15&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 align=&#34;center&#34;&gt;⚡ Github Stats&lt;/h1&gt;
 
 &lt;p align=&#34;center&#34;&gt;
     &lt;a href=&#34;https://github.com/anuraghazra/github-readme-stats&#34;&gt;&lt;/a&gt; 
     &lt;img align=&#34;center&#34; src=&#34;https://github-readme-stats.vercel.app/api?username=jiunjiun69&amp;show_icons=true&amp;include_all_commits=true&amp;theme=radical&amp;hide_border=true&#34; alt=&#34;jiunjiun69&#39;s github stats&#34; /&gt;&lt;/a&gt;  
     &lt;a href=&#34;https://github.com/anuraghazra/github-readme-stats&#34;&gt;&lt;img align=&#34;center&#34; src=&#34;https://github-readme-stats.vercel.app/api/top-langs/?username=jiunjiun69&amp;layout=compact&amp;theme=gruvbox&amp;hide_border=true&amp;langs_count=8&#34; /&gt;&lt;/a&gt; 
 &lt;/p&gt;
+
+&lt;h1 align=&#34;center&#34;&gt;🔎 Github Profile Details&lt;/h1&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;img height=&#34;180em&#34; src=&#34;https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jiunjiun69&amp;theme=github_dark&#34; alt=&#34;jiunjiun69&#34; align = &#34;center&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 align=&#34;center&#34;&gt;🔥 Github Streaks&lt;/h1&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;img src=&#34;https://github-readme-streak-stats.herokuapp.com/?user=jiunjiun69&amp;theme=black-ice&amp;hide_border=true&amp;stroke=0000&amp;background=0D1117&amp;ring=e05397&amp;fire=e05397&amp;currStreakLabel=e05397&#34; alt=&#34;jiunjiun69&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 align=&#34;center&#34;&gt;📊 Github Contribution Graph&lt;/h1&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;a href=&#34;#&#34;&gt;&lt;img alt=&#34;Ashish Kumar Activity Graph&#34; src=&#34;https://activity-graph.herokuapp.com/graph?username=jiunjiun69&amp;bg_color=0D1117&amp;color=e05397&amp;line=e05397&amp;point=FFFFFF&amp;hide_border=true&amp;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&#34;text-align: center;&#34;&gt;
+    
+&lt;script async type=&#34;application/javascript&#34; src=&#34;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&#34;&gt;
+    var config = {
+      startOnLoad:true,
+      theme:&#39;neutral&#39;,
+      align:&#39;left&#39;
+    };
+    mermaid.initialize(config);
+&lt;/script&gt;
+  
+&lt;div class=&#34;mermaid&#34;&gt;
+    
+graph TD
+    A[JN在睡覺] --&gt;|鬧鐘響了| B(JN準備起床)
+    B --&gt; C{JN是否起床?}
+    C --&gt;|是| D[JN繼續賴床]
+    C --&gt;|否| E[JN睡死]
+    D --&gt; E[JN睡死]
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
 &lt;h1 id=&#34;languages-i-have-used&#34;&gt;Languages I have Used&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://img.shields.io/badge/-Python-000000?style=flat&amp;amp;logo=python&#34;
 	

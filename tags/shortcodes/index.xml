@@ -23,11 +23,11 @@
 
 
 &lt;div style=&#34;width: 100%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;162&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;994&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;162&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;994&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;line&#39;,
@@ -83,11 +83,11 @@
 
 
 &lt;div style=&#34;width: 90%;height: 200px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;122&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;995&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;122&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;995&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bar&#39;,
@@ -139,11 +139,11 @@
 
 
 &lt;div style=&#34;width: 80%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;437&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;192&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
 &lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;437&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;192&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bubble&#39;,

@@ -13,7 +13,8 @@
         
         <guid>https://jiunjiun69.github.io/p/%E8%87%AA%E8%A8%82%E7%BE%A9-shortcode/</guid>
         <description>&lt;p&gt;Hugo 可以自訂義 &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Shortcodes&lt;/a&gt; ，以下是我亂玩的幾個Shortcodes&lt;/p&gt;
+    &gt;Shortcodes&lt;/a&gt; ，以下是我亂玩的幾個Shortcodes。(&lt;a class=&#34;link&#34; href=&#34;https://www.chartjs.org/docs/latest/getting-started/installation.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;版本號要先對好&lt;/a&gt;)&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;hugo-chart-shortcode&#34;&gt;Hugo Chart Shortcode&lt;/h2&gt;
 &lt;h3 id=&#34;line-chart&#34;&gt;Line Chart&lt;/h3&gt;
@@ -23,11 +24,11 @@
 
 
 &lt;div style=&#34;width: 100%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;569&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;466&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
-&lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.0/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;569&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;466&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;line&#39;,
@@ -83,11 +84,11 @@
 
 
 &lt;div style=&#34;width: 90%;height: 200px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;711&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;897&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
-&lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.0/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;711&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;897&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bar&#39;,
@@ -139,11 +140,11 @@
 
 
 &lt;div style=&#34;width: 80%;height: 300px;margin: 0 auto&#34;&gt;
-    &lt;canvas id=&#34;135&#34;&gt;&lt;/canvas&gt;
+    &lt;canvas id=&#34;968&#34;&gt;&lt;/canvas&gt;
 &lt;/div&gt;
-&lt;script src=&#34;https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.0/chart.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-    var ctx = document.getElementById(&#39;135&#39;).getContext(&#39;2d&#39;);
+    var ctx = document.getElementById(&#39;968&#39;).getContext(&#39;2d&#39;);
     var options = 
 {
     type: &#39;bubble&#39;,

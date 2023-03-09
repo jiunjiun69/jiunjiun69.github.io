@@ -5,7 +5,7 @@
 
 <link rel='canonical' href='https://jiunjiun69.github.io/p/github-%E7%AD%86%E8%A8%98/'>
 
-<link rel="stylesheet" href="/scss/style.min.ac77dcf8b111b51da39a92990f431923f210f3876d85798a2125667f96dc33a4.css"><meta property='og:title' content='Github 筆記'>
+<link rel="stylesheet" href="/scss/style.min.5a8e892f6fa14515e9065eee1f5d2e05302606ec7f11750b2fb95198f9cdcbfd.css"><meta property='og:title' content='Github 筆記'>
 <meta property='og:description' content='紀錄個人使用Github的指令'>
 <meta property='og:url' content='https://jiunjiun69.github.io/p/github-%E7%AD%86%E8%A8%98/'>
 <meta property='og:site_name' content='泓均&#39;s 筆記 Site'>
@@ -529,7 +529,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-v" data-lang="v"><span class="line"><span class="cl"><span class="nv">git</span> <span class="nv">submodule</span> <span class="nv">add</span> <span class="p">&lt;</span><span class="nv">存儲庫url</span><span class="p">&gt;</span> <span class="p">&lt;</span><span class="nv">想放的路徑</span><span class="p">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git submodule add &lt;存儲庫url&gt; &lt;想放的路徑&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="存儲庫內含submodule子模塊想完整拉取的方法">存儲庫內含submodule子模塊，想完整拉取的方法</h2>
@@ -548,8 +548,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-v" data-lang="v"><span class="line"><span class="cl"><span class="nv">git</span> <span class="nv">clone</span> <span class="nv">https</span><span class="p">:</span><span class="c1">//xxx.xx.xxx/xxxx/xxx.git
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nv">git</span> <span class="nv">submodule</span> <span class="nv">init</span> <span class="o">&amp;&amp;</span> <span class="nv">git</span> <span class="nv">submodule</span> <span class="nv">update</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git clone https://xxx.xx.xxx/xxxx/xxx.git
+</span></span><span class="line"><span class="cl">git submodule init &amp;&amp; git submodule update
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="刪除儲存庫中的submodule">刪除儲存庫中的submodule</h2>
@@ -558,7 +558,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-v" data-lang="v"><span class="line"><span class="cl"><span class="nv">git</span> <span class="nv">rm</span> <span class="p">&lt;</span><span class="nv">submodule</span><span class="o">-</span><span class="nv">name</span><span class="p">&gt;</span> <span class="o">||</span> <span class="nv">git</span> <span class="nv">submodule</span> <span class="nv">deinit</span> <span class="p">&lt;</span><span class="nv">submodule</span><span class="o">-</span><span class="nv">name</span><span class="p">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git rm &lt;submodule-name&gt; || git submodule deinit &lt;submodule-name&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>or</p>
@@ -588,7 +588,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-v" data-lang="v"><span class="line"><span class="cl"><span class="nv">git</span> <span class="nv">submodule</span> <span class="nv">foreach</span> <span class="p">&lt;</span><span class="nv">command</span><span class="p">&gt;</span> 
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git submodule foreach &lt;command&gt; 
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>eg: git submodule foreach git checkout master</p>
@@ -942,7 +942,7 @@ add 修改加入書籤</p>
         
             2020 - 
         
-        2022 泓均&#39;s 筆記 Site
+        2023 泓均&#39;s 筆記 Site
     </section>
     
     <section class="powerby">
